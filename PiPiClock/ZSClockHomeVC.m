@@ -21,6 +21,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor blackColor];
+    
+    
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onDeviceOrientationDidChange)
                                                  name:UIDeviceOrientationDidChangeNotification
                                                object:nil];
