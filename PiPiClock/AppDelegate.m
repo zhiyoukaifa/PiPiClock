@@ -19,9 +19,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
    //zs20181202 干掉直接用main.storyboard
-//    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[ZSClockHomeVC alloc] init]];
-//    
-//    self.window.rootViewController = nav;
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[ZSClockHomeVC alloc] init]];
+    
+    self.window.rootViewController = nav;
 
     return YES;
 }

@@ -8,11 +8,11 @@
 
 #import "ZSClockHomeView.h"
 #import "Header.h"
+
 @interface ZSClockHomeView()
 
-@property (nonatomic, strong) UIScrollView *scrollViewClock;    /**< zs20181202 表盘切换ScrollView  */
+@property (nonatomic, strong) UIButton *btnSetting;      /**< zs20181205 设置按钮  */
 
-@property (nonatomic, strong) UIView *viewContainer;        /**< zs20181202 视图容器  */
 
 @end
 
@@ -24,35 +24,42 @@
     self = [super initWithFrame:frame];
     if (self) {
 
-        self.backgroundColor = [UIColor orangeColor];
         [self addContentView];
+        
     }
     return self;
 }
-//zs20181202 https://www.jianshu.com/p/eb2c4bb4e3f1
-- (void)layoutSubviews
+
+#pragma mark - action
+- (void)onClickAllBtn:(UIButton*)btn
 {
-     NSLog(@"layoutSubviews");
-//    self.viewContainer.bounds = self.bounds;
-//    self.viewContainer.center = self.center;
-    self.layer.cornerRadius = self.width/2.0;
-    self.layer.masksToBounds = YES;
+    _blockZSClockHomeView(btn.tag,nil);
 }
+
+
 
 - (void)addContentView
 {
-//    [self addSubview:self.viewContainer];
-//    self.viewContainer.backgroundColor = [UIColor blackColor];
+    [self addSubview:self.btnSetting];
+    self.btnSetting.frame = CGRectMake(20, 64, 100, 44);
 }
 
 
-- (UIView *)viewContainer
+
+
+- (UIButton *)btnSetting
 {
-    if (_viewContainer == nil) {
+    if (_btnSetting == nil) {
         
-        _viewContainer = [[UIView alloc] init];
+        _btnSetting = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_btnSetting setTitle:@"设置" forState:(UIControlStateNormal)];
+        [_btnSetting setTitleColor:[UIColor orangeColor] forState:(UIControlStateNormal)];
+        _btnSetting.backgroundColor = [UIColor yellowColor];
+        [_btnSetting addTarget:self action:@selector(onClickAllBtn:) forControlEvents:(UIControlEventTouchUpInside)];
     }
-    return _viewContainer;
+    return _btnSetting;
 }
+
+
 
 @end

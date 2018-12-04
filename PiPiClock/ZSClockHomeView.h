@@ -8,9 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ZSClockHomeView : UIView
+
+
+@property (nonatomic, strong) void (^blockZSClockHomeView)(NSInteger tag, _Nullable id obj);
 
 @end
 
