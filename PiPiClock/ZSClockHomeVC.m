@@ -12,6 +12,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import "ZSClockView.h"
 #import "ZSSettingVC.h"
+#define kWidthSide 5
 @interface ZSClockHomeVC ()
 
 @property (nonatomic, strong) ZSClockHomeView *viewHomeClock;        /**< zs20181202 时钟视图  */
@@ -42,24 +43,33 @@
     [self.viewHomeClock setBlockZSClockHomeView:^(NSInteger tag, id  _Nonnull obj) {
         
         ZSSettingVC *vc = [[ZSSettingVC alloc] init];
-        [weakSelf.navigationController presentViewController:vc animated:YES completion:nil];
-//        [weakSelf.navigationController pushViewController:vc animated:YES];
-        
+        [weakSelf.navigationController presentViewController:vc animated:YES completion:nil];        
     }];
 
 }
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:animated];
+}
+
+
+
+
+
+
 
 #pragma mark - private
 - (void)settingClockViewFrame
 {
     if (self.view.width > self.view.height) {
 
-        self.viewClock.bounds = CGRectMake(0, 0, self.view.height, self.view.height);
-        NSLog(@"3___%@",NSStringFromCGPoint(self.viewHomeClock.center));
+        self.viewClock.bounds = CGRectMake(0, 0, self.view.height  - kWidthSide, self.view.height - kWidthSide);
+//        NSLog(@"3___%@",NSStringFromCGPoint(self.viewHomeClock.center));
 
     } else {
-        self.viewClock.bounds = CGRectMake(0, 0, self.view.width, self.view.width);
-        NSLog(@"4___%@",NSStringFromCGPoint(self.viewHomeClock.center));
+        self.viewClock.bounds = CGRectMake(0, 0, self.view.width - kWidthSide, self.view.width - kWidthSide);
+//        NSLog(@"4___%@",NSStringFromCGPoint(self.viewHomeClock.center));
     }
     self.viewClock.center = self.view.center;
 }
@@ -93,7 +103,18 @@
 {
     if (_viewClock == nil) {
         
-        _viewClock = [[ZSClockView alloc] init];
+        CGRect bounds;
+        if (self.view.width > self.view.height) {
+            
+            bounds = CGRectMake(0, 0, self.view.height  - kWidthSide , self.view.height - kWidthSide);
+            //        NSLog(@"3___%@",NSStringFromCGPoint(self.viewHomeClock.center));
+            
+        } else {
+            bounds = CGRectMake(0, 0, self.view.width - kWidthSide, self.view.width - kWidthSide);
+            //        NSLog(@"4___%@",NSStringFromCGPoint(self.viewHomeClock.center));
+        }
+        _viewClock = [[ZSClockView alloc] initWithFrame:bounds];
+        _viewClock.center = self.view.center;
     }
     return _viewClock;
 }

@@ -40,8 +40,8 @@
 
 - (void)addContentView
 {
-    [self addSubview:self.btnSetting];
-    self.btnSetting.frame = CGRectMake(20, 64, 100, 44);
+//    [self addSubview:self.btnSetting];
+//    self.btnSetting.frame = CGRectMake(20, 64, 100, 44);
 }
 
 
