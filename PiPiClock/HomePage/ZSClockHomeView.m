@@ -13,6 +13,9 @@
 
 @property (nonatomic, strong) UIButton *btnSetting;      /**< zs20181205 设置按钮  */
 
+@property (nonatomic, strong) UILabel *labYearMonthDay;     /**<zs20181215 展示年月日的label */
+
+@property (nonatomic, strong) UILabel *labWeek;     /**<zs20181215 星期几 */
 
 @end
 

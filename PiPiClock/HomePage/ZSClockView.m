@@ -126,7 +126,6 @@
 }
 - (void)timeChange{
     
-     NSLog(@"dddd");
     // 获取当前系统时间
     
     NSCalendar * calender = [NSCalendar currentCalendar];

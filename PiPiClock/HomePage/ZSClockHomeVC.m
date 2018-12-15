@@ -62,16 +62,16 @@
 #pragma mark - private
 - (void)settingClockViewFrame
 {
-    if (self.view.width > self.view.height) {
-
-        self.viewClock.bounds = CGRectMake(0, 0, self.view.height  - kWidthSide, self.view.height - kWidthSide);
-//        NSLog(@"3___%@",NSStringFromCGPoint(self.viewHomeClock.center));
-
-    } else {
-        self.viewClock.bounds = CGRectMake(0, 0, self.view.width - kWidthSide, self.view.width - kWidthSide);
-//        NSLog(@"4___%@",NSStringFromCGPoint(self.viewHomeClock.center));
-    }
-    self.viewClock.center = self.view.center;
+//    if (self.view.width > self.view.height) {
+//
+//        self.viewClock.bounds = CGRectMake(0, 0, self.view.height  - kWidthSide, self.view.height - kWidthSide);
+////        NSLog(@"3___%@",NSStringFromCGPoint(self.viewHomeClock.center));
+//
+//    } else {
+//        self.viewClock.bounds = CGRectMake(0, 0, self.view.width - kWidthSide, self.view.width - kWidthSide);
+////        NSLog(@"4___%@",NSStringFromCGPoint(self.viewHomeClock.center));
+//    }
+//    self.viewClock.center = self.view.center;
 }
 - (void)layoutClockView
 {
