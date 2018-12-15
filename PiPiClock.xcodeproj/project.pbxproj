@@ -7,20 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F85793521B6C81C008F6E87 /* ZSClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F85793421B6C81C008F6E87 /* ZSClockView.m */; };
+		2F5C4E4B21C52FB700F93FE1 /* ZSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C4E3B21C52FB600F93FE1 /* ZSTools.m */; };
+		2F5C4E4C21C52FB700F93FE1 /* ZSClockHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C4E4121C52FB700F93FE1 /* ZSClockHomeView.m */; };
+		2F5C4E4D21C52FB700F93FE1 /* ZSClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C4E4421C52FB700F93FE1 /* ZSClockView.m */; };
+		2F5C4E4E21C52FB700F93FE1 /* ZSClockHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C4E4621C52FB700F93FE1 /* ZSClockHomeVC.m */; };
+		2F5C4E4F21C52FB700F93FE1 /* ZSSystemTimeSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C4E4821C52FB700F93FE1 /* ZSSystemTimeSingleton.m */; };
+		2F5C4E5321C5308900F93FE1 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C4E5221C5308900F93FE1 /* UIView+Frame.m */; };
+		2F5C4E5721C53AEC00F93FE1 /* ZSSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C4E5621C53AEC00F93FE1 /* ZSSettingView.m */; };
+		2F5C4E5A21C53B5F00F93FE1 /* ZSSettingTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C4E5921C53B5F00F93FE1 /* ZSSettingTableVC.m */; };
+		2F5C4E5E21C540B400F93FE1 /* ZSSettingBackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C4E5D21C540B400F93FE1 /* ZSSettingBackCell.m */; };
+		2F5C4E6121C5488700F93FE1 /* ZSSettingBrightnessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C4E6021C5488700F93FE1 /* ZSSettingBrightnessCell.m */; };
 		2F85793821B6D099008F6E87 /* ZSSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F85793721B6D099008F6E87 /* ZSSettingVC.m */; };
 		2FFB96C521B4010C004F0C43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB96C421B4010C004F0C43 /* AppDelegate.m */; };
 		2FFB96CD21B4010F004F0C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FFB96CC21B4010F004F0C43 /* Assets.xcassets */; };
 		2FFB96D321B4010F004F0C43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB96D221B4010F004F0C43 /* main.m */; };
-		2FFB96DB21B40213004F0C43 /* ZSClockHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB96DA21B40213004F0C43 /* ZSClockHomeView.m */; };
-		2FFB96E021B403C2004F0C43 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB96DF21B403C1004F0C43 /* UIView+Frame.m */; };
-		2FFB96E621B40DBF004F0C43 /* ZSClockHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB96E421B40DBF004F0C43 /* ZSClockHomeVC.m */; };
 		2FFB96ED21B41862004F0C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFB96EC21B41862004F0C43 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2F85793321B6C81C008F6E87 /* ZSClockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSClockView.h; sourceTree = "<group>"; };
-		2F85793421B6C81C008F6E87 /* ZSClockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSClockView.m; sourceTree = "<group>"; };
+		2F5C4E3A21C52FB600F93FE1 /* ZSTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSTools.h; sourceTree = "<group>"; };
+		2F5C4E3B21C52FB600F93FE1 /* ZSTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSTools.m; sourceTree = "<group>"; };
+		2F5C4E3F21C52FB600F93FE1 /* DefineTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineTools.h; sourceTree = "<group>"; };
+		2F5C4E4121C52FB700F93FE1 /* ZSClockHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSClockHomeView.m; sourceTree = "<group>"; };
+		2F5C4E4221C52FB700F93FE1 /* ZSClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSClockView.h; sourceTree = "<group>"; };
+		2F5C4E4321C52FB700F93FE1 /* ZSClockHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSClockHomeVC.h; sourceTree = "<group>"; };
+		2F5C4E4421C52FB700F93FE1 /* ZSClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSClockView.m; sourceTree = "<group>"; };
+		2F5C4E4521C52FB700F93FE1 /* ZSClockHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSClockHomeView.h; sourceTree = "<group>"; };
+		2F5C4E4621C52FB700F93FE1 /* ZSClockHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSClockHomeVC.m; sourceTree = "<group>"; };
+		2F5C4E4821C52FB700F93FE1 /* ZSSystemTimeSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSSystemTimeSingleton.m; sourceTree = "<group>"; };
+		2F5C4E4921C52FB700F93FE1 /* ZSSystemTimeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSSystemTimeSingleton.h; sourceTree = "<group>"; };
+		2F5C4E5021C5302A00F93FE1 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		2F5C4E5121C5308900F93FE1 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		2F5C4E5221C5308900F93FE1 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		2F5C4E5521C53AEC00F93FE1 /* ZSSettingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSSettingView.h; sourceTree = "<group>"; };
+		2F5C4E5621C53AEC00F93FE1 /* ZSSettingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSSettingView.m; sourceTree = "<group>"; };
+		2F5C4E5821C53B5F00F93FE1 /* ZSSettingTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSSettingTableVC.h; sourceTree = "<group>"; };
+		2F5C4E5921C53B5F00F93FE1 /* ZSSettingTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSSettingTableVC.m; sourceTree = "<group>"; };
+		2F5C4E5C21C540B400F93FE1 /* ZSSettingBackCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSSettingBackCell.h; sourceTree = "<group>"; };
+		2F5C4E5D21C540B400F93FE1 /* ZSSettingBackCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSSettingBackCell.m; sourceTree = "<group>"; };
+		2F5C4E5F21C5488700F93FE1 /* ZSSettingBrightnessCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSSettingBrightnessCell.h; sourceTree = "<group>"; };
+		2F5C4E6021C5488700F93FE1 /* ZSSettingBrightnessCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSSettingBrightnessCell.m; sourceTree = "<group>"; };
 		2F85793621B6D099008F6E87 /* ZSSettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSSettingVC.h; sourceTree = "<group>"; };
 		2F85793721B6D099008F6E87 /* ZSSettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSSettingVC.m; sourceTree = "<group>"; };
 		2FFB96C021B4010C004F0C43 /* PiPiClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiPiClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,13 +55,6 @@
 		2FFB96CC21B4010F004F0C43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FFB96D121B4010F004F0C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FFB96D221B4010F004F0C43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2FFB96D921B40213004F0C43 /* ZSClockHomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSClockHomeView.h; sourceTree = "<group>"; };
-		2FFB96DA21B40213004F0C43 /* ZSClockHomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSClockHomeView.m; sourceTree = "<group>"; };
-		2FFB96DE21B403BD004F0C43 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		2FFB96DF21B403C1004F0C43 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
-		2FFB96E221B40433004F0C43 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
-		2FFB96E321B40DBF004F0C43 /* ZSClockHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSClockHomeVC.h; sourceTree = "<group>"; };
-		2FFB96E421B40DBF004F0C43 /* ZSClockHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSClockHomeVC.m; sourceTree = "<group>"; };
 		2FFB96EC21B41862004F0C43 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,6 +69,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F5C4E3821C52FB600F93FE1 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2F5C4E3A21C52FB600F93FE1 /* ZSTools.h */,
+				2F5C4E3B21C52FB600F93FE1 /* ZSTools.m */,
+				2F5C4E5121C5308900F93FE1 /* UIView+Frame.h */,
+				2F5C4E5221C5308900F93FE1 /* UIView+Frame.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2F5C4E3D21C52FB600F93FE1 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				2F5C4E5021C5302A00F93FE1 /* Header.h */,
+				2F5C4E3F21C52FB600F93FE1 /* DefineTools.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		2F5C4E4021C52FB700F93FE1 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				2F5C4E4321C52FB700F93FE1 /* ZSClockHomeVC.h */,
+				2F5C4E4621C52FB700F93FE1 /* ZSClockHomeVC.m */,
+				2F5C4E4521C52FB700F93FE1 /* ZSClockHomeView.h */,
+				2F5C4E4121C52FB700F93FE1 /* ZSClockHomeView.m */,
+				2F5C4E4221C52FB700F93FE1 /* ZSClockView.h */,
+				2F5C4E4421C52FB700F93FE1 /* ZSClockView.m */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		2F5C4E4721C52FB700F93FE1 /* GetSystemTime_Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				2F5C4E4921C52FB700F93FE1 /* ZSSystemTimeSingleton.h */,
+				2F5C4E4821C52FB700F93FE1 /* ZSSystemTimeSingleton.m */,
+			);
+			path = GetSystemTime_Singleton;
+			sourceTree = "<group>";
+		};
+		2F5C4E5421C53AC300F93FE1 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				2F85793621B6D099008F6E87 /* ZSSettingVC.h */,
+				2F85793721B6D099008F6E87 /* ZSSettingVC.m */,
+				2F5C4E5521C53AEC00F93FE1 /* ZSSettingView.h */,
+				2F5C4E5621C53AEC00F93FE1 /* ZSSettingView.m */,
+				2F5C4E5821C53B5F00F93FE1 /* ZSSettingTableVC.h */,
+				2F5C4E5921C53B5F00F93FE1 /* ZSSettingTableVC.m */,
+				2F5C4E5B21C5408600F93FE1 /* Cell */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		2F5C4E5B21C5408600F93FE1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2F5C4E5C21C540B400F93FE1 /* ZSSettingBackCell.h */,
+				2F5C4E5D21C540B400F93FE1 /* ZSSettingBackCell.m */,
+				2F5C4E5F21C5488700F93FE1 /* ZSSettingBrightnessCell.h */,
+				2F5C4E6021C5488700F93FE1 /* ZSSettingBrightnessCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		2FFB96B721B4010C004F0C43 = {
 			isa = PBXGroup;
 			children = (
@@ -69,18 +155,13 @@
 		2FFB96C221B4010C004F0C43 /* PiPiClock */ = {
 			isa = PBXGroup;
 			children = (
+				2F5C4E5421C53AC300F93FE1 /* Setting */,
+				2F5C4E3821C52FB600F93FE1 /* Tools */,
+				2F5C4E4021C52FB700F93FE1 /* HomePage */,
+				2F5C4E4721C52FB700F93FE1 /* GetSystemTime_Singleton */,
+				2F5C4E3D21C52FB600F93FE1 /* Config */,
 				2FFB96C321B4010C004F0C43 /* AppDelegate.h */,
 				2FFB96C421B4010C004F0C43 /* AppDelegate.m */,
-				2FFB96E321B40DBF004F0C43 /* ZSClockHomeVC.h */,
-				2FFB96E421B40DBF004F0C43 /* ZSClockHomeVC.m */,
-				2FFB96D921B40213004F0C43 /* ZSClockHomeView.h */,
-				2FFB96DA21B40213004F0C43 /* ZSClockHomeView.m */,
-				2F85793321B6C81C008F6E87 /* ZSClockView.h */,
-				2F85793421B6C81C008F6E87 /* ZSClockView.m */,
-				2F85793621B6D099008F6E87 /* ZSSettingVC.h */,
-				2F85793721B6D099008F6E87 /* ZSSettingVC.m */,
-				2FFB96E121B4040A004F0C43 /* Config */,
-				2FFB96DD21B403A9004F0C43 /* Tools */,
 				2FFB96DC21B4036B004F0C43 /* ProjectFile */,
 			);
 			path = PiPiClock;
@@ -95,23 +176,6 @@
 				2FFB96D221B4010F004F0C43 /* main.m */,
 			);
 			path = ProjectFile;
-			sourceTree = "<group>";
-		};
-		2FFB96DD21B403A9004F0C43 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				2FFB96DE21B403BD004F0C43 /* UIView+Frame.h */,
-				2FFB96DF21B403C1004F0C43 /* UIView+Frame.m */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		2FFB96E121B4040A004F0C43 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				2FFB96E221B40433004F0C43 /* Header.h */,
-			);
-			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,13 +247,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FFB96E621B40DBF004F0C43 /* ZSClockHomeVC.m in Sources */,
-				2FFB96DB21B40213004F0C43 /* ZSClockHomeView.m in Sources */,
-				2F85793521B6C81C008F6E87 /* ZSClockView.m in Sources */,
+				2F5C4E4E21C52FB700F93FE1 /* ZSClockHomeVC.m in Sources */,
+				2F5C4E4C21C52FB700F93FE1 /* ZSClockHomeView.m in Sources */,
+				2F5C4E6121C5488700F93FE1 /* ZSSettingBrightnessCell.m in Sources */,
+				2F5C4E4B21C52FB700F93FE1 /* ZSTools.m in Sources */,
+				2F5C4E5321C5308900F93FE1 /* UIView+Frame.m in Sources */,
 				2FFB96D321B4010F004F0C43 /* main.m in Sources */,
-				2FFB96E021B403C2004F0C43 /* UIView+Frame.m in Sources */,
 				2FFB96C521B4010C004F0C43 /* AppDelegate.m in Sources */,
+				2F5C4E5E21C540B400F93FE1 /* ZSSettingBackCell.m in Sources */,
+				2F5C4E5721C53AEC00F93FE1 /* ZSSettingView.m in Sources */,
+				2F5C4E5A21C53B5F00F93FE1 /* ZSSettingTableVC.m in Sources */,
 				2F85793821B6D099008F6E87 /* ZSSettingVC.m in Sources */,
+				2F5C4E4D21C52FB700F93FE1 /* ZSClockView.m in Sources */,
+				2F5C4E4F21C52FB700F93FE1 /* ZSSystemTimeSingleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UJH48WSBNE;
+				DEVELOPMENT_TEAM = 589RW5KP69;
 				INFOPLIST_FILE = PiPiClock/ProjectFile/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -331,7 +401,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UJH48WSBNE;
+				DEVELOPMENT_TEAM = 589RW5KP69;
 				INFOPLIST_FILE = PiPiClock/ProjectFile/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (

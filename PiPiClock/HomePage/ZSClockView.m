@@ -79,13 +79,13 @@
 //zs20181202 https://www.jianshu.com/p/eb2c4bb4e3f1
 - (void)layoutSubviews
 {
-    NSLog(@"layoutSubviews");
+//    NSLog(@"layoutSubviews");
     self.layer.cornerRadius = self.width/2.0;
     self.layer.masksToBounds = YES;
 }
 - (void)drawRect:(CGRect)rect{
 
-     NSLog(@"drawRect");
+//     NSLog(@"drawRect");
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetAllowsAntialiasing(context, true);
     CGContextSetShouldAntialias(context, true);
@@ -93,7 +93,6 @@
     CGContextSetFillColorWithColor(context, [UIColor blackColor].CGColor);
     CGContextSetLineWidth(context, 2);
     _radius = (self.frame.size.width < self.frame.size.height) ? self.frame.size.width / 2 : self.frame.size.height / 2;
-//    _radius = _radius - 2.0;
     CGContextAddArc(context,CGRectGetWidth(self.frame)/2, CGRectGetHeight(self.frame)/2, _radius, 0.f, 2 * M_PI, 0.f);
     CGContextDrawPath(context, kCGPathFillStroke);
     
@@ -158,7 +157,6 @@
     secondL.backgroundColor = [UIColor redColor].CGColor ;
     
     // 设置锚点
-    
     secondL.anchorPoint = CGPointMake(0.5, 1);
     
     secondL.position = CGPointMake(kClockW * 0.5, kClockW * 0.5);

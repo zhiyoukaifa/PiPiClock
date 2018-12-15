@@ -10,5 +10,7 @@
 #define Header_h
 
 #import "UIView+Frame.h"
+#import "DefineTools.h"
+
 
 #endif /* Header_h */

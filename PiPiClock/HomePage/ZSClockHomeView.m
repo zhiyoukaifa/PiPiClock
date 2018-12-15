@@ -43,8 +43,8 @@
 
 - (void)addContentView
 {
-//    [self addSubview:self.btnSetting];
-//    self.btnSetting.frame = CGRectMake(20, 64, 100, 44);
+    [self addSubview:self.btnSetting];
+    self.btnSetting.frame = CGRectMake(0, kStateBarHeight, 80, 80);
 }
 
 
@@ -56,8 +56,7 @@
         
         _btnSetting = [UIButton buttonWithType:UIButtonTypeCustom];
         [_btnSetting setTitle:@"设置" forState:(UIControlStateNormal)];
-        [_btnSetting setTitleColor:[UIColor orangeColor] forState:(UIControlStateNormal)];
-        _btnSetting.backgroundColor = [UIColor yellowColor];
+        [_btnSetting setTitleColor:[UIColor grayColor] forState:(UIControlStateNormal)];
         [_btnSetting addTarget:self action:@selector(onClickAllBtn:) forControlEvents:(UIControlEventTouchUpInside)];
     }
     return _btnSetting;

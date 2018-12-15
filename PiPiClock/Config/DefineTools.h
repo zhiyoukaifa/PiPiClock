@@ -9,6 +9,7 @@
 #ifndef DefineTools_h
 #define DefineTools_h
 
+#define heightFit [[UIScreen mainScreen] bounds].size.height
 
 #define kNavgationBarHeight (heightFit >= 812? 75 : 64)     //ysh20171023 导航栏高度，适配iPhoneX
 #define kStateBarHeight (heightFit >= 812? 31 : 20)         //ysh20171023 状态栏高度，适配iPhoneX
